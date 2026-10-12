@@ -49,3 +49,4 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 - Imagens com `loading="lazy"`, dimensões reservadas, `object-fit` e `object-position` definidos.
 - Sem dependência de bases de dados, autenticação ou APIs externas.
 - Configuração de build estático sem dependências privadas.
+- Publicação estática: o comando copia `index.html`, `styles.css`, `script.js` e `favicon.svg` para `public/`, cujo conteúdo é publicado como saída final.
