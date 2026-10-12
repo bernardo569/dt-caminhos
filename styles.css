@@ -30,6 +30,9 @@ img { display: block; max-width: 100%; }
 .site-header.is-scrolled { background: rgba(251,251,248,.96); color: var(--navy); box-shadow: 0 1px 0 rgba(23,34,77,.11); backdrop-filter: blur(12px); }
 .header-inner { min-height: 94px; display: flex; align-items: center; gap: 44px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-family: var(--heading); font-size: 13px; letter-spacing: .11em; white-space: nowrap; }
+.brand-logo-frame { display: inline-flex; align-items: center; justify-content: center; width: 174px; height: 52px; padding: 6px 9px; background: rgba(0,0,0,.38); }
+.brand-logo-frame-bottom { width: 194px; height: 55px; padding: 0; background: transparent; }
+.brand-logo { display: block; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
 .brand-name { font-weight: 500; }.brand-name strong { font-weight: 800; }
 .brand-mark { width: 36px; height: 36px; position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 1px; color: currentColor; font-family: var(--heading); font-weight: 800; font-size: 13px; letter-spacing: -.12em; border: 1px solid currentColor; }
 .brand-mark i { width: 1px; height: 27px; margin: 0 0 0 2px; background: var(--accent); transform: rotate(28deg); }.brand-mark span:first-child { transform: translateX(1px); }.brand-mark span:last-child { transform: translateX(-1px); }
