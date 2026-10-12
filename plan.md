@@ -35,8 +35,8 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 2. Hero com promessa “Energia que sustenta o seu caminho.”, contexto em Luanda, CTA de contacto e contacto 972 707 935.
 3. Seção problema/solução com acordeão acessível sobre instalações inseguras, consumo elevado, falhas e falta de manutenção.
 4. Proposta de valor com foco em diagnóstico, instalação rigorosa e continuidade operacional.
-5. Grade com seis serviços: instalações elétricas, auditoria energética, manutenção de quadros, sistemas de backup, iluminação técnica e segurança/terra.
-6. Faixa de aplicações com etiquetas de atuação, sem logos de terceiros não autorizados.
+5. Grade com dez serviços: instalações elétricas, auditoria energética, manutenção de quadros, sistemas de backup, iluminação técnica, segurança/terra, telecomunicações com redes estruturadas, topologias, tomadas de rede e bastidores, rede de incêndio com deteção de fumaça/térmica, controlo de acesso e GTC/AVAC.
+6. Faixa de aplicações com etiquetas de atuação em energia e conectividade, sem logos de terceiros não autorizados.
 7. Benefícios escaneáveis: segurança, eficiência, continuidade, conformidade, resposta e acompanhamento.
 8. CTA final com links `tel:` e `https://wa.me/244972707935`.
 9. Rodapé com NIF 5002684187, localização LUANDA-ANGOLA e contacto 972707935, usando telefone e WhatsApp como canais funcionais.
