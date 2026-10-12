@@ -2,7 +2,7 @@
 
 ## Produto e implementação
 
-Site institucional estático, responsivo e orientado à conversão para a DT.CAMINHOS PRESTAÇÃO DE SERVIÇOS, LDA, com uma página principal e navegação por âncoras. A implementação usa HTML semântico, CSS moderno e JavaScript vanilla, sem dependências externas de runtime. O frontend será servido por um servidor Node mínimo na porta 3000, com fallback seguro para os ficheiros estáticos.
+Site institucional estático, responsivo e orientado à conversão para a DT.CAMINHOS PRESTAÇÃO DE SERVIÇOS, LDA, agora posicionada na área de energia e instalações elétricas. A implementação usa HTML semântico, CSS moderno e JavaScript vanilla, sem dependências externas de runtime. O frontend é servido por um servidor Node mínimo na porta 3000, com fallback seguro para os ficheiros estáticos.
 
 ### Estrutura do projeto
 
@@ -18,28 +18,28 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 
 - **Movimento:** brutalismo editorial suave / engenharia contemporânea, inspirado em websites industriais premium, com escala tipográfica grande e composição assimétrica.
 - **Princípios:** precisão visual, confiança operacional, respiro generoso e conversão sem ruído.
-- **Cor:** branco e marfim muito claro criam transparência; azul-marinho profundo (#17224D) comunica rigor; terracota/laranja queimado (#D86B3E) é o detalhe próprio da marca, usado apenas para ação, linhas e acentos.
+- **Cor:** branco e cinza técnico criam sensação de limpeza; azul petróleo profundo (#0D2136) comunica segurança; amarelo elétrico (#E0A32A) é o detalhe próprio da marca, usado como pulso de energia em ações, linhas e acentos.
 - **Layout:** narrativa vertical editorial, com blocos de texto alinhados à esquerda, imagens em faixas amplas e uma linha de eixo colorida que conecta as secções.
-- **Elementos assinatura:** monograma geométrico “D/C” com barras diagonais, micro-rótulos em caixa alta com tracking, e linhas finas terracota como marcadores de direção.
+- **Elementos assinatura:** monograma geométrico “D/C” atravessado por uma barra de energia, micro-rótulos em caixa alta com tracking, e linhas finas amarelas como marcadores de circuito.
 - **Interação:** cada interação deve parecer uma confirmação operacional: hover curto, foco evidente, acordeão previsível, botões com seta e scroll suave.
 - **Animação:** hero com revelação vertical e fade; secções entram com deslocamento de 24px; cards usam stagger discreto; imagens têm revelação sem zoom agressivo; tudo é desligado ou reduzido com `prefers-reduced-motion: reduce`.
 - **Tipografia:** Manrope para títulos e UI, Inter como fallback de corpo; h1 forte e compacto, h2 editorial, corpo com largura limitada e leitura confortável.
 - **Essência da marca:** serviços técnicos e operacionais com execução clara para empresas e particulares em Luanda — direta, competente e próxima. Personalidade: sólida, precisa, resolutiva.
-- **Voz:** objetiva, segura e humana. Exemplos: “O trabalho avança quando a execução é clara.” / “Fale connosco e transforme a necessidade em próximo passo.”
+- **Voz:** objetiva, segura e humana. Exemplos: “A energia certa começa antes da instalação.” / “Fale connosco e transforme uma necessidade técnica em continuidade.”
 - **Wordmark:** “DT.CAMINHOS” em caixa alta com o monograma D/C separado por uma barra diagonal, remetendo a rotas e continuidade.
-- **Cor proprietária:** Terracota Caminhos #D86B3E.
+- **Cor proprietária:** Amarelo Elétrico Caminhos #E0A32A.
 
 ## Conteúdo e experiência
 
 1. Header com logo textual/monograma, Home, Serviços, Sobre nós e Contactos; menu móvel overlay e CTA “Falar connosco”.
-2. Hero com promessa “Execução que abre caminho.”, contexto em Luanda, CTA de contacto e contacto 972 707 935.
-3. Seção problema/solução com acordeão acessível sobre atrasos, falta de coordenação, manutenção e execução.
-4. Proposta de valor com foco em planeamento, equipas e acompanhamento.
-5. Grade com seis serviços: manutenção, obras e acabamentos, limpeza técnica, logística, apoio operacional e consultoria/coordenação.
-6. Faixa de projetos com etiquetas de atuação, sem logos de terceiros não autorizados.
-7. Benefícios escaneáveis: clareza, resposta, qualidade, segurança, proximidade e acompanhamento.
+2. Hero com promessa “Energia que sustenta o seu caminho.”, contexto em Luanda, CTA de contacto e contacto 972 707 935.
+3. Seção problema/solução com acordeão acessível sobre instalações inseguras, consumo elevado, falhas e falta de manutenção.
+4. Proposta de valor com foco em diagnóstico, instalação rigorosa e continuidade operacional.
+5. Grade com seis serviços: instalações elétricas, auditoria energética, manutenção de quadros, sistemas de backup, iluminação técnica e segurança/terra.
+6. Faixa de aplicações com etiquetas de atuação, sem logos de terceiros não autorizados.
+7. Benefícios escaneáveis: segurança, eficiência, continuidade, conformidade, resposta e acompanhamento.
 8. CTA final com links `tel:` e `https://wa.me/244972707935`.
-9. Rodapé com NIF 5002684187, localização LUANDA-ANGOLA, contacto 972707935 e e-mail genérico de contacto como canal visual não inventado (`contacto@dtcaminhos.ao` não será usado como funcional; será exibido um campo de contacto via telefone/WhatsApp).
+9. Rodapé com NIF 5002684187, localização LUANDA-ANGOLA e contacto 972707935, usando telefone e WhatsApp como canais funcionais.
 
 ## Requisitos técnicos
 
