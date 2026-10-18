@@ -87,3 +87,26 @@ h1, h2, h3 {
     line-height: 1.65;
   }
 }
+
+/* Mobile: a lista de benefícios deve ocupar a largura completa, sem coluna fantasma. */
+@media (max-width: 900px) {
+  .benefits-layout {
+    display: block;
+    width: 100%;
+  }
+
+  .benefits-intro,
+  .benefits-list,
+  .benefit,
+  .benefit > div,
+  .benefit h3,
+  .benefit p {
+    width: 100%;
+    max-width: none;
+  }
+
+  .benefit {
+    display: block;
+    grid-template-columns: none;
+  }
+}
