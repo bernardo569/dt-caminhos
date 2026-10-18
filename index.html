@@ -9,11 +9,13 @@
     <meta property="og:description" content="Serviços técnicos, operacionais e de manutenção para fazer o trabalho avançar em Luanda." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_AO" />
-    <meta property="og:image" content="/images/service-01.webp" />
+    <meta property="og:image" content="/images/service-01-1600.webp" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="/images/service-01-1600.webp" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" /></noscript>
     <link rel="stylesheet" href="/styles.css" />
     <title>DT.CAMINHOS — Energia e Instalações Elétricas</title>
     <script type="application/ld+json">
@@ -43,7 +45,7 @@
     <header class="site-header" id="topo">
       <div class="header-inner container">
         <a class="brand brand-logo-top" href="#topo" aria-label="DT.CAMINHOS, início">
-          <span class="brand-logo-frame"><img class="brand-logo" src="/logo-top.png" alt="DT.CAMINHOS — Transformar desafios em resultados" /></span>
+          <span class="brand-logo-frame"><img class="brand-logo" src="/images/logo-top.webp" alt="DT.CAMINHOS — Transformar desafios em resultados" decoding="async" /></span>
         </a>
         <nav class="desktop-nav" aria-label="Navegação principal">
           <a class="nav-link is-active" href="#topo">Home</a>
@@ -73,7 +75,7 @@
 
     <main id="conteudo">
       <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="/images/service-01.webp" alt="Equipa técnica a planear uma intervenção num local de trabalho" fetchpriority="high" />
+        <img class="hero-image" src="/images/service-01-1600.webp" srcset="/images/service-01-720.webp 720w, /images/service-01-1600.webp 1600w" sizes="100vw" alt="Equipa técnica a planear uma intervenção num local de trabalho" fetchpriority="high" decoding="async" />
         <div class="hero-shade"></div>
         <div class="hero-grid container">
           <div class="hero-copy reveal reveal-up">
@@ -103,7 +105,7 @@
           <div class="intro-columns">
             <div class="intro-visual reveal reveal-left">
               <div class="visual-frame">
-                <img src="/images/service-02.webp" alt="Profissionais a organizar materiais para uma operação" loading="lazy" />
+                <img src="/images/service-02-1600.webp" srcset="/images/service-02-720.webp 720w, /images/service-02-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Profissionais a organizar materiais para uma operação" loading="lazy" decoding="async" />
                 <span class="image-tag">DTC</span>
               </div>
               <p class="image-caption">Diagnóstico e execução rigorosa para instalações que precisam de confiança.</p>
@@ -144,7 +146,7 @@
             <a class="text-link text-link-light" href="#contactos">Falar com um técnico</a>
           </div>
           <div class="value-visual reveal reveal-right">
-            <img src="/images/service-03.webp" alt="Coordenadores a analisar planos e prioridades de um projeto" loading="lazy" />
+            <img src="/images/service-03-1600.webp" srcset="/images/service-03-720.webp 720w, /images/service-03-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Coordenadores a analisar planos e prioridades de um projeto" loading="lazy" decoding="async" />
             <div class="value-stamp"><span>CONTROLO<br />DA ENERGIA E DO EDIFÍCIO</span></div>
           </div>
         </div>
@@ -157,16 +159,16 @@
             <p class="section-intro">Da instalação elétrica à rede estruturada, reunimos capacidade técnica para cuidar de cada ligação, tomada, quadro, circuito, bastidor, central e sistema técnico.</p>
           </div>
           <div class="services-grid">
-            <a class="service-card reveal reveal-up" href="#contactos"><div class="service-image"><img src="/images/service-04.webp" alt="Técnico a instalar e ligar um quadro elétrico" loading="lazy" /></div><div class="service-meta"><h3>Instalações elétricas</h3></div><p>Quadros, circuitos e distribuição feitos para funcionar com segurança.</p></a>
-            <a class="service-card reveal reveal-up delay-1" href="#contactos"><div class="service-image"><img src="/images/service-02.webp" alt="Técnicos a avaliar o consumo energético de um edifício" loading="lazy" /></div><div class="service-meta"><h3>Auditoria energética</h3></div><p>Leitura de consumos e recomendações práticas para usar melhor a energia.</p></a>
-            <a class="service-card reveal reveal-up delay-2" href="#contactos"><div class="service-image"><img src="/images/service-05.webp" alt="Técnico a inspecionar equipamento de potência" loading="lazy" /></div><div class="service-meta"><h3>Manutenção de potência</h3></div><p>Inspeção e manutenção preventiva para reduzir falhas e paragens.</p></a>
-            <a class="service-card reveal reveal-up delay-3" href="#contactos"><div class="service-image"><img src="/images/service-03.webp" alt="Engenheiro a verificar uma solução de energia de backup" loading="lazy" /></div><div class="service-meta"><h3>Sistemas de backup</h3></div><p>UPS e soluções de continuidade para momentos críticos.</p></a>
-            <a class="service-card reveal reveal-up delay-1" href="#contactos"><div class="service-image"><img src="/images/service-06.webp" alt="Técnico a testar iluminação técnica" loading="lazy" /></div><div class="service-meta"><h3>Iluminação técnica</h3></div><p>Iluminação eficiente, funcional e adequada a cada ambiente.</p></a>
-            <a class="service-card reveal reveal-up delay-2" href="#contactos"><div class="service-image"><img src="/images/service-07.webp" alt="Engenheiro a verificar proteção e ligação à terra" loading="lazy" /></div><div class="service-meta"><h3>Segurança e terra</h3></div><p>Proteção, ligação à terra e boas práticas para instalações mais seguras.</p></a>
-            <a class="service-card reveal reveal-up delay-3" href="#contactos"><div class="service-image"><img src="/images/service-08.webp" alt="Técnico a organizar cablagem estruturada num bastidor de rede" loading="lazy" /></div><div class="service-meta"><h3>Telecomunicações</h3></div><p>Redes estruturadas, todo tipo de topologia, tomadas de rede e bastidores.</p></a>
-            <a class="service-card reveal reveal-up delay-1" href="#contactos"><div class="service-image"><img src="/images/service-09.webp" alt="Técnico a instalar deteção de fumo e térmica" loading="lazy" /></div><div class="service-meta"><h3>Rede de incêndio</h3></div><p>Cablagem, detectores de fumaça e térmicos, módulos e centrais de incêndio.</p></a>
-            <a class="service-card reveal reveal-up delay-2" href="#contactos"><div class="service-image"><img src="/images/service-10.webp" alt="Técnico a configurar um sistema de controlo de acesso" loading="lazy" /></div><div class="service-meta"><h3>Controlo de acesso</h3></div><p>Aplicação e ligação de leitores, módulos, controladores e portas de acesso.</p></a>
-            <a class="service-card reveal reveal-up delay-3" href="#contactos"><div class="service-image"><img src="/images/service-11.webp" alt="Técnico a monitorizar GTC e AVAC" loading="lazy" /></div><div class="service-meta"><h3>GTC e AVAC</h3></div><p>Gestão técnica centralizada, automação, ventilação e climatização de edifícios.</p></a>
+            <a class="service-card reveal reveal-up" href="#contactos"><div class="service-image"><img src="/images/service-04-1600.webp" srcset="/images/service-04-720.webp 720w, /images/service-04-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a instalar e ligar um quadro elétrico" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Instalações elétricas</h3></div><p>Quadros, circuitos e distribuição feitos para funcionar com segurança.</p></a>
+            <a class="service-card reveal reveal-up delay-1" href="#contactos"><div class="service-image"><img src="/images/service-02-1600.webp" srcset="/images/service-02-720.webp 720w, /images/service-02-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnicos a avaliar o consumo energético de um edifício" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Auditoria energética</h3></div><p>Leitura de consumos e recomendações práticas para usar melhor a energia.</p></a>
+            <a class="service-card reveal reveal-up delay-2" href="#contactos"><div class="service-image"><img src="/images/service-05-1600.webp" srcset="/images/service-05-720.webp 720w, /images/service-05-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a inspecionar equipamento de potência" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Manutenção de potência</h3></div><p>Inspeção e manutenção preventiva para reduzir falhas e paragens.</p></a>
+            <a class="service-card reveal reveal-up delay-3" href="#contactos"><div class="service-image"><img src="/images/service-03-1600.webp" srcset="/images/service-03-720.webp 720w, /images/service-03-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Engenheiro a verificar uma solução de energia de backup" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Sistemas de backup</h3></div><p>UPS e soluções de continuidade para momentos críticos.</p></a>
+            <a class="service-card reveal reveal-up delay-1" href="#contactos"><div class="service-image"><img src="/images/service-06-1600.webp" srcset="/images/service-06-720.webp 720w, /images/service-06-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a testar iluminação técnica" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Iluminação técnica</h3></div><p>Iluminação eficiente, funcional e adequada a cada ambiente.</p></a>
+            <a class="service-card reveal reveal-up delay-2" href="#contactos"><div class="service-image"><img src="/images/service-07-1600.webp" srcset="/images/service-07-720.webp 720w, /images/service-07-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Engenheiro a verificar proteção e ligação à terra" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Segurança e terra</h3></div><p>Proteção, ligação à terra e boas práticas para instalações mais seguras.</p></a>
+            <a class="service-card reveal reveal-up delay-3" href="#contactos"><div class="service-image"><img src="/images/service-08-1600.webp" srcset="/images/service-08-720.webp 720w, /images/service-08-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a organizar cablagem estruturada num bastidor de rede" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Telecomunicações</h3></div><p>Redes estruturadas, todo tipo de topologia, tomadas de rede e bastidores.</p></a>
+            <a class="service-card reveal reveal-up delay-1" href="#contactos"><div class="service-image"><img src="/images/service-09-1600.webp" srcset="/images/service-09-720.webp 720w, /images/service-09-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a instalar deteção de fumo e térmica" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Rede de incêndio</h3></div><p>Cablagem, detectores de fumaça e térmicos, módulos e centrais de incêndio.</p></a>
+            <a class="service-card reveal reveal-up delay-2" href="#contactos"><div class="service-image"><img src="/images/service-10-1600.webp" srcset="/images/service-10-720.webp 720w, /images/service-10-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a configurar um sistema de controlo de acesso" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>Controlo de acesso</h3></div><p>Aplicação e ligação de leitores, módulos, controladores e portas de acesso.</p></a>
+            <a class="service-card reveal reveal-up delay-3" href="#contactos"><div class="service-image"><img src="/images/service-11-1600.webp" srcset="/images/service-11-720.webp 720w, /images/service-11-1600.webp 1600w" sizes="(max-width: 520px) 100vw, (max-width: 900px) 50vw, 33vw" alt="Técnico a monitorizar GTC e AVAC" loading="lazy" decoding="async" /></div><div class="service-meta"><h3>GTC e AVAC</h3></div><p>Gestão técnica centralizada, automação, ventilação e climatização de edifícios.</p></a>
           </div>
         </div>
       </section>
@@ -218,7 +220,7 @@
 
     <footer class="site-footer">
       <div class="container footer-top">
-        <div class="footer-brand"><a class="brand brand-footer" href="#topo" aria-label="Voltar ao início"><span class="brand-logo-frame brand-logo-frame-bottom"><img class="brand-logo" src="/logo-top.png" alt="DT.CAMINHOS — Transformar desafios em resultados" /></span></a><div class="footer-tagline">PRESTAÇÃO DE SERVIÇOS, LDA<br /><span>Energia que sustenta.</span></div></div>
+        <div class="footer-brand"><a class="brand brand-footer" href="#topo" aria-label="Voltar ao início"><span class="brand-logo-frame brand-logo-frame-bottom"><img class="brand-logo" src="/images/logo-top.webp" alt="DT.CAMINHOS — Transformar desafios em resultados" decoding="async" /></span></a><div class="footer-tagline">PRESTAÇÃO DE SERVIÇOS, LDA<br /><span>Energia que sustenta.</span></div></div>
         <a class="footer-up" href="#topo">Voltar ao topo </a>
       </div>
       <div class="container footer-grid">
