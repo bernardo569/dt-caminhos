@@ -23,7 +23,7 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 - **Elementos assinatura:** monograma geométrico “D/C” atravessado por uma barra de energia, micro-rótulos em caixa alta com tracking, e linhas finas amarelas como marcadores de circuito.
 - **Interação:** cada interação deve parecer uma confirmação operacional: hover curto, foco evidente, acordeão previsível, botões com seta e scroll suave.
 - **Animação:** hero com revelação vertical e fade; secções entram com deslocamento de 24px; cards usam stagger discreto; imagens têm revelação sem zoom agressivo; tudo é desligado ou reduzido com `prefers-reduced-motion: reduce`.
-- **Tipografia:** Manrope para títulos e UI, Inter como fallback de corpo; h1 forte e compacto, h2 editorial, corpo com largura limitada e leitura confortável.
+- **Tipografia:** Inter como sans-serif institucional única para títulos, navegação, cartões e corpo; pesos 400–800, títulos firmes e compactos, texto com largura limitada e leitura confortável.
 - **Essência da marca:** serviços técnicos e operacionais com execução clara para empresas e particulares em Luanda — direta, competente e próxima. Personalidade: sólida, precisa, resolutiva.
 - **Voz:** objetiva, segura e humana. Exemplos: “A energia certa começa antes da instalação.” / “Fale connosco e transforme uma necessidade técnica em continuidade.”
 - **Wordmark:** “DT.CAMINHOS” em caixa alta com o monograma D/C separado por uma barra diagonal, remetendo a rotas e continuidade.

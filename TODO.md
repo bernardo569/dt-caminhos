@@ -12,3 +12,5 @@
 - [x] O servidor responde na porta 3000, serve os assets sem erros e a verificação final confirma a existência dos ficheiros e a integridade do build.
 - [x] Os assets visuais são servidos em WebP responsivo com `srcset`, carregamento lazy, `decoding="async"`, preload do hero e fontes externas não bloqueantes, reduzindo o payload inicial sem alterar o conteúdo.
 - [x] A página segue uma organização de portal institucional com faixa de localização/NIF, cabeçalho de navegação, hero com pesquisa rápida, atalhos de serviço, apresentação da empresa, lista vertical de soluções, actualizações, contacto e rodapé, usando referência de organização sem copiar identidade ou conteúdo externo.
+- [x] A página inclui uma galeria responsiva com fotografias técnicas já usadas no projeto, legendas, lazy loading, `srcset` e acesso pela navegação principal.
+- [x] O site usa uma tipografia sans-serif institucional única, com Inter nos títulos, navegação, cartões, formulários e textos para manter hierarquia limpa e consistente.
