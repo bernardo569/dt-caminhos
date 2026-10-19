@@ -301,3 +301,38 @@ h1, h2 { letter-spacing: -.04em; }
 h3 { letter-spacing: -.02em; }
 .portal-hero h1 { font-weight: 800; }
 .portal-section-heading h2, .about-copy h2, .portal-standards h2, .portal-updates h2, .portal-contact h2 { font-weight: 750; }
+
+/* Menu móvel: azul institucional translúcido para manter profundidade sem pesar. */
+.portal-header .mobile-menu {
+  background: rgba(13, 50, 86, .93);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.portal-header .mobile-menu nav a {
+  border-bottom-color: rgba(255,255,255,.2);
+}
+
+/* Hero: pequeno selo de presença técnica com entrada, pausa e retorno. */
+.hero-pulse-badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 2;
+  padding: 9px 12px;
+  color: var(--white);
+  background: rgba(13, 50, 86, .82);
+  border: 1px solid rgba(255,255,255,.26);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  animation: heroBadgeInOut 4.8s ease-in-out infinite;
+}
+@keyframes heroBadgeInOut {
+  0%, 12% { opacity: 0; transform: translateY(-8px); }
+  25%, 68% { opacity: 1; transform: translateY(0); }
+  82%, 100% { opacity: 0; transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-pulse-badge { animation: none; opacity: 1; transform: none; }
+}

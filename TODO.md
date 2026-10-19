@@ -14,3 +14,4 @@
 - [x] A página segue uma organização de portal institucional com faixa de localização/NIF, cabeçalho de navegação, hero com pesquisa rápida, atalhos de serviço, apresentação da empresa, lista vertical de soluções, actualizações, contacto e rodapé, usando referência de organização sem copiar identidade ou conteúdo externo.
 - [x] A página inclui uma galeria responsiva com fotografias técnicas já usadas no projeto, legendas, lazy loading, `srcset` e acesso pela navegação principal.
 - [x] O site usa uma tipografia sans-serif institucional única, com Inter nos títulos, navegação, cartões, formulários e textos para manter hierarquia limpa e consistente.
+- [x] O hero inclui um pequeno selo de resposta local com animação suave de entrada, pausa e retorno, desligada quando o utilizador prefere movimento reduzido.
