@@ -4,7 +4,7 @@
 - [x] O cabeçalho possui Home, Serviços, Sobre nós e Contactos, estado sticky ao rolar, menu móvel acessível, scroll suave e CTAs funcionais.
 - [x] A página segue a ordem hero → problema/acordeão → solução → serviços → projetos → benefícios → CTA → rodapé, com linguagem visual elétrica e animações suaves e `prefers-reduced-motion`.
 - [x] O acordeão abre e fecha com mouse, toque e teclado, permite um item aberto por vez e usa `aria-expanded` e `aria-controls`.
-- [x] A grade de soluções elétricas, telecomunicações e sistemas técnicos contém dez serviços clicáveis por âncora, incluindo redes estruturadas, todo tipo de topologia, ligação de tomadas de rede e bastidores, rede de incêndio desde a cablagem até detectores de fumaça/térmicos, módulos e centrais, controlo de acesso, GTC e AVAC, com imagens proporcionais, alt text, hover discreto e descrições curtas.
+- [x] A grade de soluções elétricas, telecomunicações e sistemas técnicos contém dez serviços clicáveis por âncora, incluindo redes estruturadas, todo tipo de topologia, ligação de tomadas de rede e bastidores, rede de incêndio desde a cablagem até detectores de fumaça/térmicos, módulos e centrais, controlo de acesso, GTC e AVAC, sem fotografias nos cartões, numa lista vertical profissional com títulos, separadores discretos, hover acessível e descrições curtas.
 - [x] A secção de projetos mostra aplicações de energia e conectividade em faixa horizontal acessível, sem inventar logotipos de clientes.
 - [x] O site exibe claramente NIF 5002684187, localização LUANDA-ANGOLA e contacto 972707935, com links de telefone e WhatsApp funcionais.
 - [x] O formulário de contacto valida os campos, mostra sucesso/erro de forma clara e encaminha para WhatsApp sem simular uma submissão de servidor.

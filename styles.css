@@ -110,3 +110,83 @@ h1, h2, h3 {
     grid-template-columns: none;
   }
 }
+
+/* Serviços: lista vertical editorial, sem fotografias nos cartões. */
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 980px;
+  border-top: 1px solid var(--line);
+}
+
+.service-card {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.85fr) minmax(320px, 1.15fr);
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  min-height: 112px;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--line);
+  transition: padding .3s var(--ease), background-color .3s var(--ease);
+}
+
+.service-card:hover {
+  padding-left: 18px;
+  padding-right: 18px;
+  background: rgba(224, 163, 42, .06);
+}
+
+.service-meta {
+  display: block;
+  margin: 0;
+}
+
+.service-meta h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.2;
+}
+
+.service-card > p {
+  max-width: 520px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+  .service-card {
+    grid-template-columns: minmax(190px, .8fr) minmax(0, 1.2fr);
+    gap: 28px;
+  }
+}
+
+@media (max-width: 560px) {
+  .services-grid {
+    width: 100%;
+  }
+
+  .service-card {
+    display: block;
+    min-height: 0;
+    padding: 22px 0 24px;
+  }
+
+  .service-card:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .service-meta h3 {
+    font-size: 20px;
+  }
+
+  .service-card > p {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+}
