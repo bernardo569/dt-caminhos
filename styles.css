@@ -304,12 +304,17 @@ h3 { letter-spacing: -.02em; }
 
 /* Menu móvel: azul institucional translúcido para manter profundidade sem pesar. */
 .portal-header .mobile-menu {
-  background: rgba(13, 50, 86, .93);
+  background: rgba(13, 50, 86, .97);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
 .portal-header .mobile-menu nav a {
   border-bottom-color: rgba(255,255,255,.2);
+}
+.portal-header .mobile-menu nav a span,
+.portal-header .mobile-menu .mobile-menu-footer,
+.portal-header .mobile-menu .mobile-menu-footer a {
+  color: #fff;
 }
 
 /* Hero: pequeno selo de presença técnica com entrada, pausa e retorno. */
