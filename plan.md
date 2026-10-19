@@ -19,7 +19,7 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 - **Movimento:** brutalismo editorial suave / engenharia contemporânea, inspirado em websites industriais premium, com escala tipográfica grande e composição assimétrica.
 - **Princípios:** precisão visual, confiança operacional, respiro generoso e conversão sem ruído.
 - **Cor:** branco e cinza técnico criam sensação de limpeza; azul petróleo profundo (#0D2136) comunica segurança; amarelo elétrico (#E0A32A) é o detalhe próprio da marca, usado como pulso de energia em ações, linhas e acentos.
-- **Layout:** narrativa vertical editorial, com blocos de texto alinhados à esquerda, imagens em faixas amplas e uma linha de eixo colorida que conecta as secções.
+- **Layout:** portal institucional claro, inspirado na organização de serviços digitais do site de referência fornecido pelo utilizador, com cabeçalho informativo, faixa de destaque, pesquisa rápida, atalhos de serviço, apresentação institucional, lista de serviços, actualizações e contacto. A identidade, textos, cores e imagens permanecem próprios da DT.CAMINHOS.
 - **Elementos assinatura:** monograma geométrico “D/C” atravessado por uma barra de energia, micro-rótulos em caixa alta com tracking, e linhas finas amarelas como marcadores de circuito.
 - **Interação:** cada interação deve parecer uma confirmação operacional: hover curto, foco evidente, acordeão previsível, botões com seta e scroll suave.
 - **Animação:** hero com revelação vertical e fade; secções entram com deslocamento de 24px; cards usam stagger discreto; imagens têm revelação sem zoom agressivo; tudo é desligado ou reduzido com `prefers-reduced-motion: reduce`.
@@ -31,15 +31,15 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 
 ## Conteúdo e experiência
 
-1. Header com logo textual/monograma, Home, Serviços, Sobre nós e Contactos; menu móvel overlay e CTA “Falar connosco”.
-2. Hero com promessa “Energia que sustenta o seu caminho.”, contexto em Luanda, CTA de contacto e contacto 972 707 935.
-3. Seção problema/solução com acordeão acessível sobre instalações inseguras, consumo elevado, falhas e falta de manutenção.
-4. Proposta de valor com foco em diagnóstico, instalação rigorosa e continuidade operacional.
-5. Grade com dez serviços: instalações elétricas, auditoria energética, manutenção de quadros, sistemas de backup, iluminação técnica, segurança/terra, telecomunicações com redes estruturadas, topologias, tomadas de rede e bastidores, rede de incêndio com deteção de fumaça/térmica, controlo de acesso e GTC/AVAC.
-6. Faixa de aplicações com etiquetas de atuação em energia e conectividade, sem logos de terceiros não autorizados.
-7. Benefícios escaneáveis: segurança, eficiência, continuidade, conformidade, resposta e acompanhamento.
-8. CTA final com links `tel:` e `https://wa.me/244972707935`.
-9. Rodapé com NIF 5002684187, localização LUANDA-ANGOLA e contacto 972707935, usando telefone e WhatsApp como canais funcionais.
+1. Cabeçalho institucional com faixa de localização/NIF, logótipo, navegação, menu móvel e CTA de contacto.
+2. Hero de portal com promessa de serviço, imagem técnica, pesquisa rápida funcional e faixa de actualização.
+3. Atalhos de entrada para instalação, serviços técnicos e acompanhamento de operações.
+4. Apresentação institucional com foco em diagnóstico, execução rigorosa e proximidade.
+5. Lista vertical com dez serviços sem fotografias nos cartões: instalações elétricas, auditoria energética, manutenção de quadros, sistemas de backup, iluminação técnica, segurança/terra, telecomunicações com redes estruturadas, topologias, tomadas de rede e bastidores, rede de incêndio com deteção de fumaça/térmica, controlo de acesso e GTC/AVAC.
+6. Bloco de compromisso com segurança, eficiência, continuidade e acompanhamento.
+7. Área de actualizações com conteúdos próprios sobre energia, telecomunicações e sistemas técnicos.
+8. CTA final com formulário, links `tel:` e `https://wa.me/244972707935`.
+9. Rodapé com NIF 5002684187, localização LUANDA-ANGOLA e contacto 972707935.
 
 ## Requisitos técnicos
 

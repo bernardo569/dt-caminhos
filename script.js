@@ -83,3 +83,29 @@ form.addEventListener('submit', (event) => {
   feedback.classList.add('is-success');
   window.open(`https://wa.me/244972707935?text=${encodeURIComponent(whatsappText)}`, '_blank', 'noopener,noreferrer');
 });
+
+
+const serviceSearch = document.getElementById('service-search');
+const serviceQuery = document.getElementById('service-query');
+const searchFeedback = document.getElementById('search-feedback');
+if (serviceSearch && serviceQuery && searchFeedback) {
+  serviceSearch.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const query = serviceQuery.value.trim().toLocaleLowerCase('pt-PT');
+    const cards = [...document.querySelectorAll('.service-card')];
+    if (!query) {
+      searchFeedback.textContent = 'Escreva uma área, por exemplo: energia, redes ou incêndio.';
+      serviceQuery.focus();
+      return;
+    }
+    const match = cards.find((card) => card.textContent.toLocaleLowerCase('pt-PT').includes(query));
+    if (!match) {
+      searchFeedback.textContent = 'Não encontrámos essa área. Experimente “energia”, “redes” ou “AVAC”.';
+      return;
+    }
+    searchFeedback.textContent = `Encontrámos: ${match.querySelector('h3').textContent}.`;
+    match.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    match.classList.add('search-match');
+    window.setTimeout(() => match.classList.remove('search-match'), 1600);
+  });
+}
