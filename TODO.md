@@ -15,3 +15,4 @@
 - [x] A página inclui uma galeria responsiva com fotografias técnicas já usadas no projeto, legendas, lazy loading, `srcset` e acesso pela navegação principal.
 - [x] O site usa uma tipografia sans-serif institucional única, com Inter nos títulos, navegação, cartões, formulários e textos para manter hierarquia limpa e consistente.
 - [x] O hero inclui um pequeno selo de resposta local com animação suave de entrada, pausa e retorno, desligada quando o utilizador prefere movimento reduzido.
+- [x] O stylesheet principal usa uma versão explícita na URL para evitar que navegadores móveis reutilizem CSS antigo e mostrem o HTML sem a organização visual correta.
