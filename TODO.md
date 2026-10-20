@@ -16,4 +16,4 @@
 - [x] O site usa uma tipografia sans-serif institucional única, com Inter nos títulos, navegação, cartões, formulários e textos para manter hierarquia limpa e consistente.
 - [x] O hero inclui um pequeno selo de resposta local com animação suave de entrada, pausa e retorno, desligada quando o utilizador prefere movimento reduzido.
 - [x] O stylesheet principal usa uma versão explícita na URL para evitar que navegadores móveis reutilizem CSS antigo e mostrem o HTML sem a organização visual correta.
-- [x] As imagens do logótipo foram removidas do cabeçalho e do rodapé, mantendo o nome textual DT.CAMINHOS, e foram acrescentados ícones visuais de redes sociais sem ligação até existirem contas oficiais.
+- [x] As imagens do logótipo foram removidas do cabeçalho e do rodapé, mantendo o nome textual DT.CAMINHOS; o rodapé apresenta ícones visuais de Facebook e Instagram sem ligação e o símbolo ©.

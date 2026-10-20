@@ -302,11 +302,11 @@ h3 { letter-spacing: -.02em; }
 .portal-hero h1 { font-weight: 800; }
 .portal-section-heading h2, .about-copy h2, .portal-standards h2, .portal-updates h2, .portal-contact h2 { font-weight: 750; }
 
-/* Menu móvel: azul institucional translúcido para manter profundidade sem pesar. */
+/* Menu móvel: azul institucional sólido para manter as letras sempre legíveis. */
 .portal-header .mobile-menu {
-  background: rgba(13, 50, 86, .97);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: #0d3256;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 .portal-header .mobile-menu nav a {
   border-bottom-color: rgba(255,255,255,.2);
