@@ -17,3 +17,6 @@
 - [x] O hero inclui um pequeno selo de resposta local com animação suave de entrada, pausa e retorno, desligada quando o utilizador prefere movimento reduzido.
 - [x] O stylesheet principal usa uma versão explícita na URL para evitar que navegadores móveis reutilizem CSS antigo e mostrem o HTML sem a organização visual correta.
 - [x] As imagens do logótipo foram removidas do cabeçalho e do rodapé, mantendo o nome textual DT.CAMINHOS; o rodapé apresenta ícones visuais de Facebook e Instagram sem ligação e o símbolo ©.
+- [x] O novo símbolo enviado é usado como logótipo central no cabeçalho, com dimensionamento responsivo e sem ocupar o lado esquerdo ou direito da navegação.
+- [x] O site tem SEO avançado em HTML inicial: title e description focados, keywords, robots, canonical, Open Graph, Twitter Card, sitemap.xml, robots.txt e dados estruturados LocalBusiness/ProfessionalService.
+- [x] “Instalações elétricas” é o serviço principal e aparece de forma consistente no title, description, H1, primeiro cartão de serviços e schema.org, enquanto os restantes serviços ficam como oferta complementar.

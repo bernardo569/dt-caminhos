@@ -390,3 +390,41 @@ h3 { letter-spacing: -.02em; }
     background: #0d3256;
   }
 }
+
+/* Identidade: símbolo novo centrado no cabeçalho. */
+.portal-header .header-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+}
+.portal-header .brand-logo-top {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 82px;
+  margin: 0;
+}
+.brand-center-logo {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+.portal-header .desktop-nav { grid-column: 1; grid-row: 1; justify-self: start; }
+.portal-header .header-cta { grid-column: 3; grid-row: 1; justify-self: end; }
+.service-card-primary { border-color: var(--accent); box-shadow: 0 10px 28px rgba(224,163,42,.12); }
+.service-featured-label { display: block; margin-bottom: 8px; color: var(--accent-dark); font-size: 9px; font-weight: 800; letter-spacing: .14em; }
+@media (max-width: 900px) {
+  .portal-header .header-inner { display: flex; position: relative; justify-content: center; }
+  .portal-header .brand-logo-top { position: absolute; left: 50%; grid-column: auto; grid-row: auto; width: 70px; height: 70px; transform: translateX(-50%); }
+  .brand-center-logo { width: 62px; height: 62px; }
+  .portal-header .menu-toggle { position: absolute; right: 0; }
+}
+@media (max-width: 520px) {
+  .portal-header .brand-logo-top { width: 64px; height: 64px; }
+  .brand-center-logo { width: 58px; height: 58px; }
+}
