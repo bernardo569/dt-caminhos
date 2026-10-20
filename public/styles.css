@@ -461,3 +461,48 @@ h3 { letter-spacing: -.02em; }
 .portal-header .header-cta { border-color: var(--accent); color: var(--navy-deep); background: var(--accent); }
 .portal-header .header-cta:hover { color: var(--white); background: var(--navy); }
 .portal-header .brand-logo-top .brand-wordmark { color: var(--white); }
+
+/* Mobile: nunca criar uma segunda largura horizontal fora do viewport. */
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+@media (max-width: 900px) {
+  .portal-header .mobile-menu {
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+  .portal-hero-grid,
+  .about-grid,
+  .standards-grid,
+  .portal-contact .contact-layout,
+  .services-grid,
+  .updates-grid,
+  .gallery-grid,
+  .container {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+/* Fechar o menu fora do layout evita uma segunda página horizontal no telemóvel. */
+@media (max-width: 900px) {
+  .portal-header .mobile-menu {
+    display: none;
+    transform: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .portal-header .mobile-menu.is-open {
+    display: flex;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+  }
+  .reveal-left,
+  .reveal-right {
+    transform: none;
+  }
+}
