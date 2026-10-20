@@ -374,3 +374,19 @@ h3 { letter-spacing: -.02em; }
   .social-icons { order: 3; width: 100%; }
   .footer-top { flex-wrap: wrap; }
 }
+
+/* Menu móvel: painel azul integral acima de todo o conteúdo. */
+@media (max-width: 900px) {
+  body.menu-open { overflow: hidden; }
+  .portal-header .mobile-menu {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    width: 100vw;
+    height: 100dvh;
+    min-height: 100vh;
+    overflow-y: auto;
+    background: #0d3256;
+  }
+}
