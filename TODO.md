@@ -20,3 +20,4 @@
 - [x] O novo símbolo enviado é usado como logótipo central no cabeçalho, com dimensionamento responsivo e sem ocupar o lado esquerdo ou direito da navegação.
 - [x] O site tem SEO avançado em HTML inicial: title e description focados, keywords, robots, canonical, Open Graph, Twitter Card, sitemap.xml, robots.txt e dados estruturados LocalBusiness/ProfessionalService.
 - [x] “Instalações elétricas” é o serviço principal e aparece de forma consistente no title, description, H1, primeiro cartão de serviços e schema.org, enquanto os restantes serviços ficam como oferta complementar.
+- [x] A identidade visual usa as cores dominantes do novo logo — azul profundo e amarelo — e o nome “DT.CAMINHOS” aparece em branco no cabeçalho azul.
