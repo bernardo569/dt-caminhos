@@ -341,3 +341,36 @@ h3 { letter-spacing: -.02em; }
 @media (prefers-reduced-motion: reduce) {
   .hero-pulse-badge { animation: none; opacity: 1; transform: none; }
 }
+
+/* Marca textual e presença social visual, sem links até existirem contas oficiais. */
+.brand-wordmark {
+  color: var(--navy);
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -.06em;
+  white-space: nowrap;
+}
+.brand-wordmark strong { font-weight: 800; }
+.portal-header .brand-wordmark { font-size: 22px; }
+.site-footer .brand-wordmark { color: var(--white); font-size: 21px; }
+.social-icons { display: flex; align-items: center; gap: 8px; }
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(255,255,255,.35);
+  color: rgba(255,255,255,.82);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+.social-icon:hover { color: var(--white); border-color: var(--accent); background: rgba(224,163,42,.14); }
+@media (max-width: 700px) {
+  .portal-header .brand-wordmark { font-size: 18px; }
+  .social-icons { order: 3; width: 100%; }
+  .footer-top { flex-wrap: wrap; }
+}
