@@ -428,3 +428,20 @@ h3 { letter-spacing: -.02em; }
   .portal-header .brand-logo-top { width: 64px; height: 64px; }
   .brand-center-logo { width: 58px; height: 58px; }
 }
+
+/* O nome da empresa permanece visível junto ao símbolo, no centro. */
+.portal-header .brand-logo-top {
+  width: auto;
+  min-width: 190px;
+  gap: 10px;
+  flex-direction: row;
+}
+.portal-header .brand-logo-top .brand-wordmark { display: inline; color: var(--navy); font-size: 21px; }
+@media (max-width: 900px) {
+  .portal-header .brand-logo-top { width: auto; min-width: 0; height: 70px; gap: 8px; }
+  .portal-header .brand-logo-top .brand-wordmark { font-size: 18px; }
+}
+@media (max-width: 520px) {
+  .portal-header .brand-logo-top { height: 64px; gap: 7px; }
+  .portal-header .brand-logo-top .brand-wordmark { font-size: 16px; }
+}
