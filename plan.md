@@ -39,7 +39,7 @@ Site institucional estático, responsivo e orientado à conversão para a DT.CAM
 6. Bloco de compromisso com segurança, eficiência, continuidade e acompanhamento.
 7. Área de actualizações com conteúdos próprios sobre energia, telecomunicações e sistemas técnicos.
 8. CTA final com formulário, links `tel:` e `https://wa.me/244972707935`.
-9. Rodapé com NIF 5002684187, localização LUANDA-ANGOLA e contacto 972707935.
+9. Rodapé com NIF 5002684187, localização ANGOLA, LUANDA, CACUACO, BOA ESPERANÇA, RUA DO BFA e contacto 972707935.
 
 ## Requisitos técnicos
 
