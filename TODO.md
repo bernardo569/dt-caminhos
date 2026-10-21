@@ -24,3 +24,4 @@
 - [x] A versão mobile não cria overflow horizontal: o menu fechado não ocupa espaço fora do viewport, as animações laterais não deslocam conteúdo e a página mantém largura única.
 - [x] A navegação usa cabeçalho desktop em ecrãs largos e menu móvel azul em tablets/telefones até 1200px, evitando compressão e sobreposição do logo e dos links.
 - [x] As cinco imagens da galeria e o logo usam versões quadradas, com cópias entregues separadamente e num ZIP, sem substituir os originais.
+- [x] O favicon do navegador usa o logo oficial da DT.CAMINHOS em vez do ícone de relâmpago, com versões ICO, PNG e Apple Touch Icon.
