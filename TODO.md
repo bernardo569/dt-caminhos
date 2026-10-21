@@ -22,3 +22,4 @@
 - [x] “Instalações elétricas” é o serviço principal e aparece de forma consistente no title, description, H1, primeiro cartão de serviços e schema.org, enquanto os restantes serviços ficam como oferta complementar.
 - [x] A identidade visual usa as cores dominantes do novo logo — azul profundo e amarelo — e o nome “DT.CAMINHOS” aparece em branco no cabeçalho azul.
 - [x] A versão mobile não cria overflow horizontal: o menu fechado não ocupa espaço fora do viewport, as animações laterais não deslocam conteúdo e a página mantém largura única.
+- [x] A navegação usa cabeçalho desktop em ecrãs largos e menu móvel azul em tablets/telefones até 1200px, evitando compressão e sobreposição do logo e dos links.
