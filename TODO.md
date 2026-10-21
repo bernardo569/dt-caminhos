@@ -7,7 +7,7 @@
 - [x] A grade de soluções elétricas, telecomunicações e sistemas técnicos contém dez serviços clicáveis por âncora, incluindo redes estruturadas, todo tipo de topologia, ligação de tomadas de rede e bastidores, rede de incêndio desde a cablagem até detectores de fumaça/térmicos, módulos e centrais, controlo de acesso, GTC e AVAC, sem fotografias nos cartões, numa lista vertical profissional com títulos, separadores discretos, hover acessível e descrições curtas.
 - [x] A secção de projetos mostra aplicações de energia e conectividade em faixa horizontal acessível, sem inventar logotipos de clientes.
 - [x] O site exibe claramente NIF 5002684187, localização ANGOLA, LUANDA, CACUACO, BOA ESPERANÇA, RUA DO BFA e contacto 972707935, com links de telefone e WhatsApp funcionais.
-- [x] O formulário de contacto valida os campos, mostra sucesso/erro de forma clara e encaminha para WhatsApp sem simular uma submissão de servidor.
+- [x] O formulário de contacto valida os campos, mostra sucesso/erro de forma clara e abre uma mensagem de e-mail dirigida a geral@dtcaminhos.com, preenchendo automaticamente nome, telefone e mensagem.
 - [x] A implementação inclui HTML semântico, um único h1, metatags SEO/Open Graph, Schema.org, foco visível e `public/manus-routes.json` válido.
 - [x] O servidor responde na porta 3000, serve os assets sem erros e a verificação final confirma a existência dos ficheiros e a integridade do build.
 - [x] Os assets visuais são servidos em WebP responsivo com `srcset`, carregamento lazy, `decoding="async"`, preload do hero e fontes externas não bloqueantes, reduzindo o payload inicial sem alterar o conteúdo.
@@ -25,3 +25,4 @@
 - [x] A navegação usa cabeçalho desktop em ecrãs largos e menu móvel azul em tablets/telefones até 1200px, evitando compressão e sobreposição do logo e dos links.
 - [x] As cinco imagens da galeria e o logo usam versões quadradas, com cópias entregues separadamente e num ZIP, sem substituir os originais.
 - [x] O favicon do navegador usa o logo oficial da DT.CAMINHOS em vez do ícone de relâmpago, com versões ICO, PNG e Apple Touch Icon.
+- [x] O endereço geral@dtcaminhos.com aparece nos contactos, no rodapé e nos dados estruturados SEO da empresa.

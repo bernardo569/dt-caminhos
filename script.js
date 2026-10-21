@@ -78,10 +78,11 @@ form.addEventListener('submit', (event) => {
     (!name ? form.elements.name : !phone ? form.elements.phone : form.elements.message).focus();
     return;
   }
-  const whatsappText = `Olá, sou ${name}. ${message} O meu contacto é ${phone}.`;
-  feedback.textContent = 'A abrir o WhatsApp com o seu pedido…';
+  const subject = `Pedido de contacto — ${name}`;
+  const body = `Nome: ${name}\nTelefone: ${phone}\n\nMensagem:\n${message}`;
+  feedback.textContent = 'A abrir o seu e-mail para geral@dtcaminhos.com…';
   feedback.classList.add('is-success');
-  window.open(`https://wa.me/244972707935?text=${encodeURIComponent(whatsappText)}`, '_blank', 'noopener,noreferrer');
+  window.location.href = `mailto:geral@dtcaminhos.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
 
 
