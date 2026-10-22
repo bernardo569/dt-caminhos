@@ -26,3 +26,4 @@
 - [x] As cinco imagens da galeria e o logo usam versões quadradas, com cópias entregues separadamente e num ZIP, sem substituir os originais.
 - [x] O favicon do navegador usa o logo oficial da DT.CAMINHOS em vez do ícone de relâmpago, com asset PNG versionado e Apple Touch Icon para forçar a atualização do Google.
 - [x] O endereço geral@dtcaminhos.com aparece nos contactos, no rodapé e nos dados estruturados SEO da empresa.
+- [x] O SEO foi reforçado com 8 palavras-chave locais e de serviço, description de 150 caracteres, geolocalização Cacuaco/Luanda, URLs canónicas no domínio público e dados estruturados para os 10 serviços da empresa.
